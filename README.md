@@ -30,6 +30,12 @@ Just clone the repository with git and run `pip install -r requirements.txt`.
 You may want to use a virtualenv for keeping your dependencies consistent across 
 Python projects.
 
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirements.txt
+```
+
 ## Usage
 
 ### Interactive mode
